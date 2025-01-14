@@ -22,3 +22,49 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Java and Maven
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven specific
+/target/
+.mvn/
+!src/main/resources/application.properties
+!src/main/resources/application.yml
+
+# Logs
+*.log
+*.hprof
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Spring Boot
+/spring-boot-loader/
+/application.properties
+/application.yml
+
+# Lombok generated files
+*.lombok.config
+
+# Other
+*.bak
+*.out
+
